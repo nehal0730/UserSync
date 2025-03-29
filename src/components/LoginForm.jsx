@@ -55,7 +55,7 @@ const LoginForm = () => {
           onChange={(e) => setEmail(e.target.value)}
           placeholder="eve.holt@reqres.in"
           required
-          className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+          className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-1 focus:ring-teal-500 focus:border-teal-500"
         />
       </div>
       <div className="space-y-2">
@@ -69,7 +69,7 @@ const LoginForm = () => {
           onChange={(e) => setPassword(e.target.value)}
           placeholder="cityslicka"
           required
-          className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+          className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-1 focus:ring-teal-500 focus:border-teal-500"
         />
       </div>
       <button
