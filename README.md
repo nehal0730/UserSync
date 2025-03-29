@@ -29,6 +29,7 @@ Follow these steps to get the project running locally:
 
 #### Clone the repository:
 git clone https://github.com/nehal0730/UserSync.git
+
 cd UserSync
 
 #### Install dependencies:
