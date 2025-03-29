@@ -1,4 +1,8 @@
 # UserSync
+## Deployment
+
+The project is deployed and can be accessed at:  
+(https://usersync.onrender.com)
 
 ## Overview
 UserSync is a user management system that provides an intuitive dashboard for listing, editing, and deleting users. It features pagination, user profile images, and a responsive UI built using React and Tailwind CSS.
