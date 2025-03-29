@@ -1,18 +1,19 @@
 import express from "express";
 import path from "path";
-const app = express()
+import { fileURLToPath } from "url"; 
 
-// Serve static files from the dist directory
-app.use(express.static(path.join(__dirname, "dist")))
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-// For any request that doesn't match a static file, send the index.html
+const app = express();
+
+app.use(express.static(path.join(__dirname, "dist")));
+
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "dist", "index.html"))
-})
+  res.sendFile(path.join(__dirname, "dist", "index.html"));
+});
 
-// Get the port from the environment variable or use 3000 as default
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`)
-})
-
+  console.log(`Server is running on port ${PORT}`);
+});
