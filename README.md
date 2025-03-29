@@ -21,7 +21,7 @@ npm (>= 6.x) or yarn
 ## Installation & Setup
 Follow these steps to get the project running locally:
 
-Clone the repository:
+### Clone the repository:
 git clone https://github.com/nehal0730/UserSync.git
 cd UserSync
 
