@@ -1,24 +1,24 @@
-#__UserSync__
+# UserSync
 
-Overview
+## Overview
 UserSync is a user management system that provides an intuitive dashboard for listing, editing, and deleting users. It features pagination, user profile images, and a responsive UI built using React and Tailwind CSS.
 
-Features
+## Features
 User Dashboard with a clean UI
 List, edit, and delete users
 Pagination for navigating user lists
 Responsive design
 
-Technologies Used
+## Technologies Used
 React.js
 Tailwind CSS
 
-Prerequisites
+## Prerequisites
 Ensure you have the following installed on your system:
 Node.js (>= 14.x)
 npm (>= 6.x) or yarn
 
-Installation & Setup
+## Installation & Setup
 Follow these steps to get the project running locally:
 
 Clone the repository:
@@ -34,6 +34,6 @@ npm run dev
 Access the application:
 Open your browser and go to http://localhost:3000
 
-Assumptions & Considerations
+## Assumptions & Considerations
 The project assumes a JSON-based API for fetching user data.
 Pagination logic is handled on the frontend.
